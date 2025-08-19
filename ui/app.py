@@ -5,7 +5,7 @@ import streamlit as st
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
 # -----------------------------------------------------------------------------
-// NOTE: We no longer shuttle files into /renders; we return Manim's native path.
+
 PRESETS_DIR = Path("presets"); PRESETS_DIR.mkdir(parents=True, exist_ok=True)
 APP_DIR = Path(__file__).resolve().parent
 
