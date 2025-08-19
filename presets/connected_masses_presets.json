@@ -1,0 +1,11 @@
+{
+  "ConnectedMasses-Default": {
+    "m_table": 1.2,
+    "m_hanging": 0.5,
+    "mu_s": 0.3,
+    "mu_k": 0.25,
+    "g": 9.8,
+    "t_max": 2.5,
+    "caption": "Connected Masses (table\u2013pulley\u2013hanging)"
+  }
+}

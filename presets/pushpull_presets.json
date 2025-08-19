@@ -1,0 +1,13 @@
+{
+  "PushPullAngle-Default": {
+    "m": 2.0,
+    "mu_s": 0.45,
+    "mu_k": 0.35,
+    "F": 15.0,
+    "phi_deg": 30.0,
+    "pulling": true,
+    "g": 9.8,
+    "t_max": 2.0,
+    "caption": "Push/Pull at an Angle"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "AtwoodMachine-Default": {
+    "m1": 1.0,
+    "m2": 4.0,
+    "R": 3.0,
+    "I": 0.0,
+    "tau_drag": 0.0,
+    "g": 9.8,
+    "t_max": 5.0,
+    "mode": "student",
+    "show_time": true,
+    "caption": "Atwood Machine"
+  }
+}

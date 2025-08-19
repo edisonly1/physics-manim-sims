@@ -1,0 +1,10 @@
+# Tested with Python 3.12–3.13
+# Pin NumPy to avoid OpenCV/Manim conflicts.
+numpy>=2.1,<2.3
+
+# Manim (Community Edition)
+manim==0.19.0
+
+# Simple UI to render scenes + sliders
+streamlit>=1.37
+pydantic>=2.6

@@ -1,0 +1,9 @@
+{
+  "FreeFallSideBySide-Default": {
+    "y0": 4.0,
+    "v_throw": 5.0,
+    "g": 10.0,
+    "t_max": 2.0,
+    "caption": "Free Fall: Dropped vs Thrown"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ElevatorApparentWeight-Default": {
+    "m": 60.0,
+    "g": 9.8,
+    "a_mag": 2.0,
+    "t1": 1.5,
+    "t2": 2.0,
+    "t3": 1.5,
+    "caption": "Elevator Apparent Weight"
+  }
+}

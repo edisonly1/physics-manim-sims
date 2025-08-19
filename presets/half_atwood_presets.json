@@ -1,0 +1,15 @@
+{
+  "HalfAtwood-Default": {
+    "m_table": 1.2,
+    "m_hanging": 0.8,
+    "mu_s": 0.4,
+    "mu_k": 0.3,
+    "R": 0.05,
+    "g": 9.8,
+    "t_max": 2.5,
+    "table_y": 1.0,
+    "mode": "student",
+    "show_time": true,
+    "caption": "Half-Atwood Machine"
+  }
+}

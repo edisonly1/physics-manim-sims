@@ -1,0 +1,13 @@
+{
+  "ForcesFriction-Default": {
+    "m": 2.0,
+    "mu_s": 0.3,
+    "mu_k": 0.2,
+    "F": 8.0,
+    "g": 10.0,
+    "t_max": 4.0,
+    "x_min": -1.0,
+    "x_max": 7.0,
+    "caption": "Forces & Friction (horizontal)"
+  }
+}

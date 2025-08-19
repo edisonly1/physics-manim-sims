@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Manim build artifacts
+media/
+**/partial_movie_files/
+**/Tex/
+**/images/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+
+# Outputs (keep presets/, ignore ad-hoc renders)
+*.mp4
+*.png
+*.gif
+!presets/**/*.mp4
+!presets/**/*.png
+!presets/**/*.gif

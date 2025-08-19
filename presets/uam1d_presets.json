@@ -1,0 +1,48 @@
+{
+  "UAM1D-CUSTOM": {
+    "a": 1.0,
+    "v0": -1.0,
+    "x0": -3.0,
+    "x_min": -5.0,
+    "x_max": 5.0,
+    "tick": 1.0,
+    "t_max": 6.0,
+    "stop_at_edge": true,
+    "show_xt": true,
+    "show_vt": true,
+    "trail": true,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "caption": "UAM: Braking to a stop",
+    "units": {
+      "x": "m",
+      "t": "s",
+      "v": "m/s",
+      "a": "m/s\u00b2"
+    }
+  },
+  "UAM1D-Custom-1": {
+    "a": 1.0,
+    "v0": -1.0,
+    "x0": -3.0,
+    "x_min": -5.0,
+    "x_max": 5.0,
+    "tick": 1.0,
+    "t_max": 6.0,
+    "stop_at_edge": true,
+    "show_xt": true,
+    "show_vt": true,
+    "trail": true,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "caption": "UAM: Braking to a stop",
+    "units": {
+      "x": "m",
+      "t": "s",
+      "v": "m/s",
+      "a": "m/s\u00b2"
+    }
+  }
+}

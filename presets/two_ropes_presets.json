@@ -1,0 +1,8 @@
+{
+  "TwoRopesEquilibrium-Default": {
+    "W": 100.0,
+    "theta1_deg": 30.0,
+    "theta2_deg": 45.0,
+    "caption": "Two-Ropes Equilibrium"
+  }
+}
