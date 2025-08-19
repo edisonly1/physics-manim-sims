@@ -1,6 +1,12 @@
 ffmpeg
+pkg-config
+ninja-build
 libcairo2
+libcairo2-dev
 libpango-1.0-0
+libpango1.0-dev
 libpangocairo-1.0-0
 libgdk-pixbuf2.0-0
+libfreetype6-dev
+libharfbuzz-dev
 fonts-dejavu
