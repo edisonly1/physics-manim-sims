@@ -356,7 +356,7 @@ with st.form(f"param_form__{scene_meta['scene_class']}", clear_on_submit=False):
     col_apply, col_save, col_render = st.columns([1,1,2])
     with col_apply: apply_btn = st.form_submit_button("Save to current")
     with col_save:  save_btn  = st.form_submit_button("Save overwrite")
-    with col_render: render_now = st.form_submit_button("🎬 Apply & Render")
+    with col_render: render_now = st.form_submit_button("Apply & Render")
 
 # Persist / Render
 if apply_btn or save_btn or render_now:
