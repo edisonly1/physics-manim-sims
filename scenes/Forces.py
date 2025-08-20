@@ -196,8 +196,8 @@ class AtwoodMachine(ParamScene):
             v_labels.add(lab)
             yv += tick_v_step; val += tick_v_step
 
-        mobj1 = Square(0.6, color=p.obj, fill_color=p.obj, fill_opacity=0.2).move_to(left_anchor  + DOWN*(r + 1.7))
-        mobj2 = Square(0.7, color=p.obj, fill_color=p.obj, fill_opacity=0.2).move_to(right_anchor + DOWN*(r + 1.5))
+        mobj1 = Square(0.6, color=p.obj, fill_color=p.obj, fill_opacity=0.2).move_to(left_anchor  + DOWN*(r + 2))
+        mobj2 = Square(0.7, color=p.obj, fill_color=p.obj, fill_opacity=0.2).move_to(right_anchor + DOWN*(r + 1.8))
 
         ropeL = always_redraw(lambda: Line(left_anchor,  mobj1.get_top(),  color=p.axis))
         ropeR = always_redraw(lambda: Line(right_anchor, mobj2.get_top(), color=p.axis))
