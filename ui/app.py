@@ -181,7 +181,7 @@ page_name = st.sidebar.radio("Choose an animation", list(SCENES.keys()))
 scene_meta = SCENES[page_name]
 st.title(scene_meta["title"])
 
-with st.expander("🔎 Preflight checks (click if renders fail)", expanded=False):
+with st.expander("Preflight checks (click if renders fail)", expanded=False):
     sf = resolve_scene_file(scene_meta["scene_file"])
     st.write("Scene file:", sf)
     try:
@@ -217,12 +217,12 @@ with st.sidebar.expander("Save / Delete", expanded=False):
     new_name = st.text_input("New preset name", value=f"{scene_meta['scene_class']}-Custom-1")
     c1, c2 = st.columns(2)
     with c1:
-        if st.button("💾 Save as new"):
+        if st.button("Save as new"):
             bank[new_name] = bank[selected]
             save_preset_bank(preset_path, bank)
             st.success(f"Saved {new_name}")
     with c2:
-        if st.button("🗑️ Delete selected"):
+        if st.button("Delete selected"):
             if selected in bank and len(bank) > 1:
                 del bank[selected]
                 save_preset_bank(preset_path, bank)
